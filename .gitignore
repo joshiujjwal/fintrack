@@ -1,0 +1,91 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.output/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Environment variables — NEVER commit these
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Test coverage
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE / OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/settings.json
+.vscode/*.code-snippets
+.idea/
+*.swp
+*.swo
+
+# Vite
+.vite/
+
+# Next/Remix (if we ever migrate)
+.next/
+.remix/
+
+# Drizzle
+drizzle/meta/
+
+# Docker
+.dockerignore
+
+# Secrets & keys
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets/
+
+# Plaid webhook signing secrets
+plaid-webhook-secret.txt
+
+# Temporary files
+tmp/
+temp/
+.temp/
+
+# Storybook
+storybook-static/
+
+# Playwright
+/playwright/.cache/
